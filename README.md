@@ -1,12 +1,8 @@
-<img src="./art/repo_header.png" alt="TopTabbedPage - A Xamarin.Forms control" width="728" />
+<img src="./art/repo_header.png" alt="Reactive Streams for Xamarin.Android" width="728" />
 
-# TopTabbedPage
+# Reactive Streams for Xamarin.Android
 
-A Xamarin.Forms page based TabbedPage to show tabs at top on iOS.
-
-|![Tab 1](./art/tab1.png)|![Tab 5](./art/tab5.png)|
-|:---:|:---:|
-
+A Xamarin.Android binding library for [Reactive Streams](http://www.reactive-streams.org/) library.
 
 ## About
 This project is maintained by Naxam Co.,Ltd.<br>
@@ -19,36 +15,9 @@ We specialize in developing mobile applications using Xamarin and native technol
 
 ## Installation
 
-    Install-Package Naxam.TopTabbedPage.Forms
-
-## Usage
-This control is used the same as standard tabbed page, except it has one more options to set selected tab indictor color, `BarIndicatorColor`.
-
-```xml
-<forms:TopTabbedPage
-    xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="Naxam.Demo.TestPage"
-    xmlns:views="clr-namespace:Naxam.Demo"
-    xmlns:forms="clr-namespace:Naxam.Controls.Forms;assembly=Naxam.TopTabbedPage.Forms"
-    BarTextColor="#00b9e1"
-    BarIndicatorColor="#00b9e1"
-    BarBackgroundColor="#ffffff"
-    Title="MyRide">
-    <views:Page1 />
-    <views:Page2 />
-</forms:TopTabbedPage>
-```
-
-Add this line to your iOS `AppDelegate.cs` file
-```c#
-TopTabbedRenderer.Init();
-```
-
-## Credits
-This library currently uses `MDTabBar` from [MaterialControls](https://github.com/fpt-software/Material-Controls-For-iOS) library.
+    Install-Package Naxam.ReactiveStreams.Droid
 
 ## License
 
-TopTabbedPage is released under the Apache License license.
+Reactive Streams for Android is released under the MIT license.
 See [LICENSE](./LICENSE) for details.
