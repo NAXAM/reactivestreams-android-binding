@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.ReactiveStreams.Droid</id>
+        <version>1.0.0</version>
+        <description>Xamarin Binding Library - Reactive Streams</description>
+        <authors>Vu Duc Tuyen</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - Reactive Streams for Android</title>
+        <releaseNotes>Reactive Streams v1.0.0</releaseNotes>
+        <summary>Xamarin Binding Library - Reactive Streams</summary>
+        <iconUrl>https://avatars1.githubusercontent.com/u/25535951</iconUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/reactivestreams-android-binding</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, reactive-streams</tags>
+        <dependencies>
+            <!-- <dependency id="Naxam.BrainTree.Core" version="1.0.0" /> -->
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.ReactiveStreams.Droid/bin/Release/Naxam.ReactiveStreams.Droid.dll" target="lib/MonoAndroid10/Naxam.ReactiveStreams.Droid.dll" />
+    </files>
+</package>
